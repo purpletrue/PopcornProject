@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.movie-wrapper {
+    display: flex;
+    grid-gap: 1rem;
+    max-width: 1800px;
+    width: 100%;
+    margin-left: 50px;
+    overflow-x: auto;
+    scroll-snap-type: x;
+    cursor: grab;
+    scroll-behavior: smooth;
+}
+
+.movie-wrapper1 {
+    display: flex;
+    grid-gap: 1rem;
+    max-width: 1800px;
+    width: 100%;
+    margin-left: 50px;
+    overflow-x: auto;
+    scroll-snap-type: x;
+    cursor: grab;
+    scroll-behavior: smooth;
+}
+
+.movie-wrapper2 {
+    display: flex;
+    grid-gap: 1rem;
+    max-width: 1800px;
+    width: 100%;
+    margin-left: 50px;
+    overflow-x: auto;
+    scroll-snap-type: x;
+    cursor: grab;
+    scroll-behavior: smooth;
+}
+
+.movie-wrapper3 {
+    display: flex;
+    grid-gap: 1rem;
+    max-width: 1800px;
+    width: 100%;
+    margin-left: 50px;
+    overflow-x: auto;
+    scroll-snap-type: x;
+    cursor: grab;
+    scroll-behavior: smooth;
+}
+
+
+
+.movie-wrapper::-webkit-scrollbar{
+    display: none;
+}
+
+.movie-wrapper1::-webkit-scrollbar{
+    display: none;
+}
+
+.movie-wrapper2::-webkit-scrollbar{
+    display: none;
+}
+
+.movie-wrapper3::-webkit-scrollbar{
+    display: none;
+}
+
+.movie-slider {
+    min-width: calc(18% - .5rem);
+    aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    scroll-snap-align: start;
+    font-weight: 600;
+    user-select: none;
+    scroll-snap-align: start;
+}
+
+
+.movie-img {
+    width: 200%;
+    height: 100%;
+}
