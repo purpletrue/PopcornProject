@@ -1,0 +1,152 @@
+/* h1 설정! */
+   @font-face {
+        src: url("../fonts/스포카_ttf.ttf");
+        font-family: 'DH';
+    }
+    /* h2font */
+    @font-face {
+        font-family: 'HN';
+        src: url("../fonts/한나11_ttf.woff") format('woff');
+    }
+    
+
+body {  background: #2e3133;
+        font-family: 'HN';
+        font-size: 14px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        }
+
+#tiket { margin: 4rem auto 0;
+         max-width: 41.667rem;
+         min-width: 41.667rem;
+         font-family: ;
+        }
+
+.tiket_title { text-align: center; line-height: 8px; }
+
+.tiket_result { float: center; text-align: left; 
+                line-height: 8px; margin-left: 50px;
+                font-size: 15px;
+                }
+
+.tiket_result_box { background: black; width: 600px; height: 300px;
+                    padding: 1rem 1.8rem; margin-bottom: 25px;
+                    border-radius: 50px 50px 50px 50px;
+                    }
+
+.tiket_click { background: black; border: 2px solid gray; 
+               border-radius: 10px;
+               width: 430px; height: 44px;
+               margin: 10px 0 5px 32px ;
+               }
+
+.tiket_click:hover { background: black; cursor:pointer;
+                     border: 2px solid #fefc77;
+                     }
+
+.price { margin-left: 20px;}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.container{
+max-width: 100%;
+margin: auto;
+}
+.row{
+display: flex;
+justify-content: center;
+flex-wrap: nowrap;
+}
+ul{
+list-style: none;
+}
+.footer{
+background-color: #2e3133;
+padding: 70px 0;
+/* 푸터 배경색상 기존색 #24262b */
+}
+.footer-col{
+width: 20%;
+padding: 0;
+}
+.footer-col h4{
+font-size: 18px;
+color: #ffffff;
+text-transform: capitalize;
+margin-bottom: 35px;
+font-weight: 500;
+position: relative;
+}
+.footer-col h4::before{
+content: '';
+position: absolute;
+left: 40px;
+bottom: -5px;
+background-color: #e91e63;
+height: 2px;
+box-sizing: border-box;
+width: 50px;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+.footer-col ul li a{
+font-size: 16px;
+text-transform: capitalize;
+color: #ffffff;
+text-decoration: none;
+font-weight: 300;
+color: #bbbbbb;
+display: block;
+transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+color: #ffffff;
+padding-left: 8px;
+}
+.footer-col .social-links a{
+display: inline-block;
+height: 40px;
+width: 40px;
+margin: 0 10px 10px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #ffffff;
+transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+color: #24262b;
+background-color: #ffffff;
+}
+.facebook { background-image: url(페이스북.png); }
+.facebook:hover { background-image: url(페이스북\ 반전.png);}
+.twitter  {background-image: url(트위터.png); }
+.twitter:hover { background-image: url(트위터\ 반전.png);}
+.instagram { background-image: url(인스타.png); }
+.instagram:hover { background-image: url(인스타\ 반전.PNG);}
+.footer-m h4{
+font-size: 14px;
+color: #bbbbbb;
+text-transform: capitalize;
+margin-bottom: 35px;
+font-weight: 500;
+position: relative;
+text-align: center;
+margin-top: 30px;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+.footer-col{
+width: 50%;
+margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+.footer-col{
+width: 100%;
+}
+}
