@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="event_page.css">
+    <!-- 푸터 아이콘 -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Mainpage.css">
+    <link rel="stylesheet" href="Mainpage_Nav.css">
+    <!-- 검색창 JS & CSS -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="Mainpage_Search.css">
+    <!-- 마우스 -->
+    <script src="Mouse.js"></script>
+
+</head>
+<style>
+    /* 스크롤바 디자인 변경 */
+    /* width */
+    ::-webkit-scrollbar {
+        width: 9px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #2e3133;
+        border-radius: 7px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #fff49f;
+        border-radius: 7px;
+    }
+</style>
+
+<body>
+
+    <div style="width: 100%">
+
+        <!-- 헤더 -->
+        <div class="mainmain">
+            <span id="header">
+                <a href="file:///E:/%EC%9D%B4%EC%95%84%EC%A7%84%20Main2,%20Login/MainPage.html"><img class="logo" src="팝콘.PNG" width="200" height="150"></a>
+            </span>
+
+            <!-- 메뉴 및 풀다운 -->
+            <span id="menu">
+                <ul class="main1">
+                    <li style="border: none;"><a href="#"><b style="font-size: 20px;"><span
+                                    style="font-size: 20px;">≡</span> Home</b></a>
+                        <ul class="main2">
+                            <li><a href="#">이용권 정보</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">영화</a>
+                        <ul class="main2">
+                            <li><a href="#">로맨스</a></li>
+                            <li><a href="#">코미디</a></li>
+                            <li><a href="#">액션</a></li>
+                            <li><a href="#">스릴러 & 호러</a></li>
+                            <li><a href="#">SF & 판타지</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">드라마</a>
+                        <ul class="main2">
+                            <li><a href="#">로맨스</a></li>
+                            <li><a href="#">시트콤 & 코미디</a></li>
+                            <li><a href="#">스릴러</a></li>
+                            <li><a href="#">SF & 판타지</a></li>
+                            <li><a href="#">웹드라마</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">애니메이션</a></li>
+                    <li><a href="#">TOP 10</a></li>
+                    <li><a href="#">MY</a></li>
+                    <li style="border: none;"><a href="#">실시간 스트리밍</a></li>
+                </ul>
+            </span>
+
+            <!-- 검색창 -->
+            <div id="body-search">
+                <div class="main-search">
+                    <div class="search">
+                        <input type="text" class="s_input" onkeypress="if( event.keyCode == 13 ){enterKey();}" />
+                        <button class="btn"><img src="검색돋보기.png" style="width: 90%; right:50%; top:50%;">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <script src="검색.js"></script>
+                    </form>
+
+                    <!-- 검색 결과 실행 -->
+                    <script>
+                        function enterKey() {
+                            swal("검색 결과가 없습니다.");
+                        }
+                    </script>
+                </div>
+            </div>
+            <!-- 이벤트 -->
+            <div class="title3">
+                <span class="title5">팝콘</span>&nbsp;<span class="title2">이벤트</span>
+            </div>
+            <br>
+            <hr class="line">
+            <br>
+            <p class="ment">언제나 고객님의 눈높이에 맞추어 최상의 서비스가 되기 위해 노력하겠습니다.</p>
+            <br>
+            <br>
+            <br>
+            <div class="title4">
+                <span class="title">이벤트</span>&nbsp;<span class="title2">팝콘 4월 봄맞이 룰렛 이벤트</span>
+            </div>
+            <br>
+            <p class="ment2">팝콘 관리자</p>
+            <p class="ment3">이벤트</p>
+            <br>
+            <hr>
+            <img src="꽃입니다.jpg" class="flower">
+            <img src="이벤트트.jpg" class="event">
+            <div class="up">
+                <section class="rullette">
+                    <button id="spin">Spin</button>
+                    <div class="container">
+                        <div class="one">100P</div>
+                        <div class="two">-3000P</div>
+                        <div class="three">50000P</div>
+                        <div class="four">100P</div>
+                        <div class="five">꽝!</div>
+                        <div class="six">-3000P</div>
+                        <div class="seven">100P</div>
+                        <div class="eight">꽝!</div>
+                    </div>
+                </section>
+                <span class="arrow"></span>
+                <!-- footer -->
+                <footer class="footer">
+                    <div class="footer-m">
+                        <h4>질문이 있으신가요?<br>
+                            문의 전화: 123-456-7890</h4>
+                    </div>
+                    <div class="container2">
+                        <div class="row">
+                            <div class="footer-col">
+                                <h4></h4>
+                                <ul>
+                                    <li><a href="#">자주 묻는 질문</a></li>
+                                    <li><a href="#">투자 정보</a></li>
+                                    <li><a href="#">개인정보 처리방침</a></li>
+                                    <li><a href="#">속도 테스트</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4></h4>
+                                <ul>
+                                    <li><a href="#">고객 센터</a></li>
+                                    <li><a href="#">입사 정보</a></li>
+                                    <li><a href="#">쿠키 설정</a></li>
+                                    <li><a href="#">법적 고지</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4></h4>
+                                <ul>
+                                    <li><a href="#">계정</a></li>
+                                    <li><a href="#">회사 정보</a></li>
+                                    <li><a href="#">이용약관</a></li>
+                                    <li><a href="#">문의하기</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4>follow us</h4>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="footer-m">
+                            <h4>대표: 팝콘팀<br>
+                                팝콘서비시스코리아 유한회사 통신판매업신고번호: 제2023-서울마포-301호 전화번호: 123-456-7890<br>
+                                이메일 주소: pop_corn@naver.com<br>
+                                주소: 대한민국 서울특별시 마포구 양화로 12길 23<br>
+                                사업자등록번호: 000-00-0000
+                            </h4>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+        <script src="event_page.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="slamdunk.css" />
+    <link rel="stylesheet" href="Mainpage_Nav.css">
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- 푸터 아이콘 -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 검색창 JS & CSS -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="Mainpage_Search.css">
+    <!-- 마우스 -->
+    <script src="Mouse.js"></script>
+    <script>
+        // script 태그에 인라인 이벤트 모델
+        function buttonClick() {
+            swal('평가되었습니다.');
+        }
+    </script>
+</head>
+<div style="width:100%;">
+
+    <body>
+        <!-- 헤더 -->
+        <div class="mainmain">
+            <span id="header">
+                <img class="logo" src="팝콘.PNG" width="200" height="150">
+            </span>
+
+            <!-- 메뉴 및 풀다운 -->
+            <span id="menu">
+                <ul class="main1">
+                    <li style="border: none;"><a href="#"><b style="font-size: 20px;"><span
+                                    style="font-size: 20px;">≡</span> Home</b></a>
+                        <ul class="main2">
+                            <li><a href="#">이용권 정보</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">영화</a>
+                        <ul class="main2">
+                            <li><a href="#">로맨스</a></li>
+                            <li><a href="#">코미디</a></li>
+                            <li><a href="#">액션</a></li>
+                            <li><a href="#">스릴러 & 호러</a></li>
+                            <li><a href="#">SF & 판타지</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">드라마</a>
+                        <ul class="main2">
+                            <li><a href="#">로맨스</a></li>
+                            <li><a href="#">시트콤 & 코미디</a></li>
+                            <li><a href="#">스릴러</a></li>
+                            <li><a href="#">SF & 판타지</a></li>
+                            <li><a href="#">웹드라마</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">애니메이션</a></li>
+                    <li><a href="#">TOP 10</a></li>
+                    <li><a href="#">MY</a></li>
+                    <li style="border: none;"><a href="#">실시간스트리밍</a></li>
+                </ul>
+            </span>
+            <!-- 검색창 -->
+            <div id="body-search">
+                <div class="main-search">
+                    <div class="search">
+                        <input type="text" class="s_input" onkeypress="if( event.keyCode == 13 ){enterKey();}" />
+                        <button class="btn"><img src="검색돋보기.png" style="width: 90%; right:50%; top:50%;">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <script src="검색.js"></script>
+                    </form>
+
+                    <!-- 검색 결과 실행 -->
+                    <script>
+                        function enterKey() {
+                            swal("검색 결과가 없습니다.");
+                        }
+                    </script>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="movie_title">
+                더 퍼스트 슬램덩크 (2022)
+                <br>
+                / THE FIRST SLAM DUNK
+            </div>
+            <div class="poster">
+                <img src="https://upload.wikimedia.org/wikipedia/ko/c/ce/%EB%8D%94_%ED%8D%BC%EC%8A%A4%ED%8A%B8_%EC%8A%AC%EB%9E%A8%EB%8D%A9%ED%81%AC_%ED%8F%AC%EC%8A%A4%ED%84%B0.jpg"
+                    width="600px" height="850px">
+            </div>
+            <div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <table bgcolor="#555555" width="500" height="500" float="right">
+                    <tr bgcolor="2e3133">
+                        <th width="100" height="50">장르</th>
+                        <td align="center">스포츠, 액션, 코미디, 농구, 드라마, 청춘, 성장 스토리</td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100" height="50">감독</th>
+                        <td align="center">이노우에 다케히코</td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">출연</th>
+                        <td>
+                            <p>키무라 스바루</p>
+                            <p>카미오 신이치로</p>
+                            <p>미야케 켄타</p>
+                            <p>나카무라 슈고</p>
+                            <p>카사마 준</p>
+                        </td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">연출</th>
+                        <td>
+                            <p>미야하라 나오키(宮原直樹)</p>
+                            <p>키타다 카츠히코(北田勝彦)</p>
+                            <p>오오하시 토시오(大橋聡雄)</p>
+                            <p>모토다 야스히로(元田康弘)</p>
+                            <p>스가누마 후미히코 (菅沼芙実彦)</p>
+                            <p>카마타니 하루카(鎌谷悠)</p>
+                        </td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="150">캐릭터 디자인</th>
+                        <td>
+                            <p>에바라 야스유키</p>
+                            <p>이노우에 다케히코</p>
+                        </td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">제작</th>
+                        <td align="center">2022 THE FIRST SLAM DUNK Film Partners</td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">수입사</th>
+                        <td align="center">에스엠지홀딩스 주식회사</td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">배급사</th>
+                        <td align="center">토에이 주식회사, ㈜넥스트엔터테인먼트월드</td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">개봉일</th>
+                        <td align="center"> 2023년 1월 4일</td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">상영 시간</th>
+                        <td align="center">124분 (2시간 4분)</td>
+                    </tr>
+                    <div class="grade">
+                        <tr bgcolor="red">
+                            <th width="100">국내 등급</th>
+                            <td align="center" bgcolor="red"> 12세 이상 관람가</td>
+                    </div>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <hr>
+            <br>
+
+            <h1>트레일러 영상</h1>
+            <div align="center">
+                <iframe width="1189" height="669" src="https://www.youtube.com/embed/RGEdQv95PgY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div>
+                <h1>개요/줄거리</h1>
+                <br>
+                <p>더 퍼스트 슬램덩크는 2022년 12월 3일에 개봉한 일본의 영화다. 슬램덩크의 신 극장판이며 슬램 덩크의 원작자 이노우에 다케히코가 감독과 각본을 맡았다.</p>
+
+                <p>TV판 애니메이션에서 미처 다루지 못한, 많은 팬들이 그토록 원했던 원작 최종 보스 산왕공고(산노)와의 인터하이 32강전을 영상화한 극장판으로[3],</p>
+
+                <p>큰 틀에선 원작과 같으면서도 세부적으론 다른 연출과 스토리텔링을 사용한 게 돋보인다.</p>
+
+                <p>대표적인 예로 원작 산왕전에선 별다른 주목을 받지 못했던 송태섭(미야기 료타)의 비중이 주인공급으로, 그의 과거사를 큰 뼈대 삼아 북산 멤버들의 과거까지 전부 회상으로 보여주는
+                    연출을 추가했다.</p>
+
+                <p>반면 원작에서 팬들이 꼽는 몇몇 명장면, 명대사가 삭제되거나 다르게 묘사된 부분이 있는데, 이는 원작자 이노우에 다케히코가 산왕전을 다른 관점에서 리메이크하는 방향으로 제작했음을
+                    시사한다.</p>
+
+                <p>대한민국에서도 워낙에 명품 로컬라이징의 상징과도 같은 작품이라 일본어 음성 한글 자막판에서도 캐릭터 이름과 학교명이 로컬라이징 되었다.[4] 한국어 더빙 번역은 SBS판 번역을
+                    담당한 윤경아가 맡았다.</p>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <h1>스틸 컷</h1>
+            <div class="slam">
+                <img
+                    src="https://img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/6kqa/image/qfYWoNmaXGToCkWEowuqt86KGLM.jpg">
+            </div>
+            <p class="jung">"농구가 하고 싶어요"</p>
+
+            <br>
+            <hr>
+            <br>
+
+
+            <h1>출연/제작</h1>
+            <div class="grid-image">
+                <a href="https://movie.daum.net/person/main?personId=108757">
+                    <img
+                        src="https://img1.daumcdn.net/thumb/R1280x0.fjpg/?fname=http://t1.daumcdn.net/brunch/service/user/aDC/image/-CsalfSu3gdnWuknpq2anMbKU98">
+                    <p>이노우에 다케히코 / 감독</p>
+                </a>
+
+                <a href="https://movie.daum.net/person/main?personId=582861">
+                    <img src="https://data.onnada.com/character_voice/202207/2937857715_21e6e3e7_26ed6e.jpg">
+                    <p>나카무라 슈고 / 성우</p>
+                </a>
+
+                <a href="https://movie.daum.net/person/main?personId=190637">
+                    <img src="https://data.onnada.com/character_voice/202008/thumb_1938312931_f05fcc6e_QvpDw.jpeg">
+                    <p>미야케 켄타 / 성우</p>
+                </a>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+
+            <h1>전문가 한 줄 평</h1>
+            <br>
+            <div>
+                <span>
+                    <p>박형근 평론가 ⭐ 10/10</p>
+                    <p>"여전히 위대한 영화가 만들어지고 있다."</p>
+                    <br>
+                    <p>채정수 평론가 ⭐ 9/10</p>
+                    <p>"살 떨리는 완벽주의."</p>
+                </span>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+            <h1>평점 · 평가하기</h1>
+            <div class="star_rating">
+                <form name="myform" id="myform" method="post" action="./save">
+                    <fieldset>
+                        <input type="radio" name="rating" value="5" id="rate1"><label for="rate1">⭐</label>
+                        <input type="radio" name="rating" value="4" id="rate2"><label for="rate2">⭐</label>
+                        <input type="radio" name="rating" value="3" id="rate3"><label for="rate3">⭐</label>
+                        <input type="radio" name="rating" value="2" id="rate4"><label for="rate4">⭐</label>
+                        <input type="radio" name="rating" value="1" id="rate5"><label for="rate5">⭐</label>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="comment">
+                <form action="method=post">
+                    <label> 이름: <br><input type="text" name="name"><br></label>
+
+                    <label> 댓글: <br><textarea cols="35" rows="5" name="mes"></textarea></label><br>
+
+                    <button onclick="swal('평가되었습니다.')">등록</button>
+
+                </form>
+            </div>
+            <!-- 푸터 -->
+            <footer class="footer">
+                <div class="footer-m">
+                    <h4>질문이 있으신가요?<br>
+                        문의 전화: 123-456-7890</h4>
+                </div>
+                <div class="footer-container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4></h4>
+                            <ul>
+                                <li><a href="#">자주 묻는 질문</a></li>
+                                <li><a href="#">투자 정보</a></li>
+                                <li><a href="#">개인정보 처리방침</a></li>
+                                <li><a href="#">속도 테스트</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4></h4>
+                            <ul>
+                                <li><a href="#">고객 센터</a></li>
+                                <li><a href="#">입사 정보</a></li>
+                                <li><a href="#">쿠키 설정</a></li>
+                                <li><a href="#">법적 고지</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4></h4>
+                            <ul>
+                                <li><a href="#">계정</a></li>
+                                <li><a href="#">회사 정보</a></li>
+                                <li><a href="#">이용약관</a></li>
+                                <li><a href="#">문의하기</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>follow us</h4>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-m">
+                        <h4>대표: 팝콘팀<br>
+                            팝콘서비시스코리아 유한회사 통신판매업신고번호: 제2023-서울마포-301호 전화번호: 123-456-7890<br>
+                            이메일 주소: pop_corn@naver.com<br>
+                            주소: 대한민국 서울특별시 마포구 양화로 12길 23<br>
+                            사업자등록번호: 000-00-0000
+                        </h4>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+    </body>
+</div>
+
+</html>

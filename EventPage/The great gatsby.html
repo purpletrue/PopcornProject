@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="The great gatsby.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- 푸터 아이콘 -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 상단 네비게이션 -->
+    <link rel="stylesheet" href="Mainpage_Nav.css">
+
+    <!-- 검색창 JS & CSS -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="Mainpage_Search.css">
+    <!-- 마우스 -->
+    <script src="Mouse.js"></script>
+
+
+
+    <script>
+        // script 태그에 인라인 이벤트 모델
+        function buttonClick() {
+            swal('평가되었습니다.');
+        }
+    </script>
+
+    </style>
+</head>
+<div style="width: 100%;">
+
+    <body>
+        
+        <!-- 헤더 -->
+        <div class="mainmain">
+            <span id="header">
+                <a href="file:///E:/%EC%9D%B4%EC%95%84%EC%A7%84%20Main2,%20Login/MainPage.html"><img class="logo" src="팝콘.PNG" width="200" height="150"></a>
+            </span>
+        <!-- 메뉴 및 풀다운 -->
+        <span id="menu">
+            <ul class="main1">
+                <li style="border: none;"><a href="#"><b style="font-size: 20px;"><span
+                                style="font-size: 20px;">≡</span> Home</b></a>
+                    <ul class="main2">
+                        <li><a href="#">이용권 정보</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">고객센터</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">영화</a>
+                    <ul class="main2">
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">코미디</a></li>
+                        <li><a href="#">액션</a></li>
+                        <li><a href="#">스릴러 & 호러</a></li>
+                        <li><a href="#">SF & 판타지</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">드라마</a>
+                    <ul class="main2">
+                        <li><a href="#">로맨스</a></li>
+                        <li><a href="#">시트콤 & 코미디</a></li>
+                        <li><a href="#">스릴러</a></li>
+                        <li><a href="#">SF & 판타지</a></li>
+                        <li><a href="#">웹드라마</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">애니메이션</a></li>
+                <li><a href="#">TOP 10</a></li>
+                <li><a href="#">MY</a></li>
+                <li style="border: none;"><a href="#">실시간스트리밍</a></li>
+            </ul>
+        </span>
+<!-- 검색창 -->
+<div id="body-search">
+    <div class="main-search">
+        <div class="search">
+            <input type="text" class="s_input" onkeypress="if( event.keyCode == 13 ){enterKey();}" />
+            <button class="btn"><img src="검색돋보기.png" style="width: 90%; right:50%; top:50%;">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <script src="검색.js"></script>
+        </form>
+
+        <!-- 검색 결과 실행 -->
+        <script>
+            function enterKey() {
+                swal("검색 결과가 없습니다.");
+            }
+        </script>
+    </div>
+</div>
+        <br>
+        <br>
+        <br>
+        <div class="movie_title">
+            위대한 개츠비 (2013)
+            <br>
+            / THE GREAT GATSBY
+        </div>
+        <div class="poster">
+            <img src="http://joyposter.cafe24.com/MoF/step/FDR427/FDR-020.jpg" width="600px" height="850px">
+        </div>
+        <div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <table bgcolor="#555555" width="500" height="500" float="right">
+                <tr bgcolor="2e3133">
+                    <th width="100" height="50">장르</th>
+                    <td align="center">드라마, 로맨스</td>
+                </tr>
+                <tr bgcolor="2e3133">
+                    <th width="100" height="50">감독/각본</th>
+                    <td align="center">배즈 루어먼</td>
+                </tr>
+                <tr bgcolor="2e3133">
+                    <th width="100">출연</th>
+                    <td>
+                        <p>레오나르도 디카프리오</p>
+                        <p>토비 맥과이어</p>
+                        <p>캐리 멀리건</p>
+                        <p>조엘 에저튼 외</p>
+                    </td>
+                </tr>
+                <tr bgcolor="2e3133">
+                    <th width="100">제작</th>
+                    <td>
+                        <p>루시 피셔</p>
+                        <p>배즈 루어먼</p>
+                        <p>캐서린 마틴</p>
+                        <p>더글라스 웍</p>
+                    </td>
+                </tr>
+                <tr bgcolor="2e3133">
+                    <th width="150">편집</th>
+                    <td>
+                        <p>맷 빌라</p>
+                        <p>제이슨 발렌타인</p>
+                        <p>조나단 레드몬드</p>
+                    </td>
+                </tr>
+                <tr bgcolor="2e3133">
+                    <th width="100">제작사</th>
+                    <td>
+                        <p>워너 브라더스</p>
+                        <p>빌리지 로드쇼 픽처스</p>
+                    </td>
+                </tr>
+                <tr bgcolor="2e3133">
+                    <th width="100">수입사</th>
+                    <td align="center">워너 브라더스 코리아</td>
+                </tr>
+                <tr bgcolor="2e3133">
+                    <th width="100">배급사</th>
+                    <td align="center">워너 브라더스 , 워너 브라더스 코리아</td>
+                </tr>
+                <tr bgcolor="2e3133">
+                    <th width="100">개봉일</th>
+                    <td align="center">2013년 5월 16일</td>
+                </tr>
+                <tr bgcolor="2e3133">
+                    <th width="100">상영 시간</th>
+                    <td align="center">143분 (2시간 23분)</td>
+                </tr>
+                <div class="grade">
+                    <tr bgcolor="red">
+                        <th width="100">국내 등급</th>
+                        <td align="center" bgcolor="red"> 15세 이상 관람가</td>
+                </div>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <hr>
+        <br>
+
+        <h1>트레일러 영상</h1>
+        <div align="center">
+            <iframe width="1189" height="669" src="https://www.youtube.com/embed/ANlUyDXmamA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h1>개요/줄거리</h1>
+            <br>
+            <img class="gif"
+                src="https://file3.instiz.net/data/file3/2018/03/17/0/6/1/0619ca0f3c6ee10d50d369866613f165.gif">
+            <br>
+            <br>
+            <br>
+            <p class="jung">"It's our instinct to chase what's getting away, and to run away from what's chasing us."
+            </p>
+            <p class="com">"도망가는 것을 쫓는 것과 나를 쫓는 것으로부터 도망가려는 것은 우리의 본능이다."</p>
+            <br>
+            <br>
+
+            <p>도덕이 해이해지고, 재즈가 유행하고, 불법이 난무하며, 주가는 끝없이 치솟았던 1922년 뉴욕. 역사상 가장 크고 가장 화려한 부자들의 세상에서 펼쳐지는 사랑의 환상과 배신, 그리고
+                타락해버린 꿈.</p>
+
+            <p>1922년 뉴욕 외곽에서 살고 있는 닉은 호화로운 별장에 살고 있는 이웃 개츠비에게 관심을 갖게 된다. 제1차 세계대전에 참전한 후 옥스포드에서 공부한 적이 있다는 개츠비는 어딘가 비밀이
+                가득한 의문에 사나이.</p>
+
+            <p>이 베일에 싸인 백만장자는 토요일마다 떠들썩한 파티를 열어 많은 손님을 초대했다. 파티에 초대 받아 참석한 후 개츠비와 우정을 쌓게 된 닉은 자신의 사촌 데이지와 개츠비가 옛 연인 사이였던
+                것을 알게 된다.</p>
+
+            <p>데이지는 가난한데다 전쟁터에서도 돌아오지 않는 개츠비를 잊은 채 부유한 톰과 결혼한 상태이다.</p>
+
+            <p>하지만 그녀의 남편 톰은 정비공의 아내와 은밀한 사이였고, 때마침 개츠비와 재회하게 된 데이지는 잊혀졌던 사랑의 감정을 되살리는데…</p>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <h1>스틸 컷</h1>
+        <div class="slam">
+            <img
+                src="https://mblogthumb-phinf.pstatic.net/20121222_150/camoju_1356141104479Ni4wR_JPEG/02_02.jpg?type=w2">
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+
+        <h1>출연/제작</h1>
+        <div class="grid-image">
+            <a href="https://movie.daum.net/person/main?personId=108757">
+                <img src="https://t1.daumcdn.net/movie/a7aa55e0cb362d739748d04bde897842ddc7b224">
+                <p>바즈 루어만 / 감독</p>
+            </a>
+
+            <a href="https://movie.daum.net/person/main?personId=582861">
+                <img src="https://img.wkorea.com/w/2022/08/style_630ed04948256-467x700.jpg">
+                <p>레오나르도 디카프리오</p>
+            </a>
+
+            <a href="https://movie.daum.net/person/main?personId=190637">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Carey_Mulligan_-_2018_%2845646489364%29_%28cropped%29.jpg">
+                <p>캐리 멀리건</p>
+            </a>
+
+            <a href="https://movie.daum.net/person/main?personId=190637">
+                <img src="https://blog.kakaocdn.net/dn/D88Fz/btrrqaQcbH3/nXO8olQobYddbH5aKG4wo1/img.jpg">
+                <p>토비 맥과이어</p>
+
+            </a>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <h1>전문가 한 줄 평</h1>
+        <br>
+        <div>
+            <span>
+                <p>이윤진 평론가 ⭐ 8/10</p>
+                <p>"카메라의 눈과 인물의 마음이 하나가 되는 기적같은 순간."</p>
+                <br>
+                <p>임아진 평론가 ⭐ 10/10</p>
+                <p>"운명처럼 다가오는 영화가 있다."</p>
+            </span>
+        </div>
+
+        <br>
+        <hr>
+        <br>
+        <h1>평점 · 평가하기</h1>
+        <div class="star_rating">
+            <form name="myform" id="myform" method="post" action="./save">
+                <fieldset>
+                    <!-- <legend>이모지 별점</legend> -->
+                    <input type="radio" name="rating" value="5" id="rate1"><label for="rate1">⭐</label>
+                    <input type="radio" name="rating" value="4" id="rate2"><label for="rate2">⭐</label>
+                    <input type="radio" name="rating" value="3" id="rate3"><label for="rate3">⭐</label>
+                    <input type="radio" name="rating" value="2" id="rate4"><label for="rate4">⭐</label>
+                    <input type="radio" name="rating" value="1" id="rate5"><label for="rate5">⭐</label>
+                </fieldset>
+            </form>
+        </div>
+        <div class="comment">
+            <form action="method=post">
+                <label> 이름: <br><input type="text" name="name"><br></label>
+
+                <label> 댓글: <br><textarea cols="35" rows="5" name="mes"></textarea></label><br>
+
+                <button onclick="swal('평가되었습니다.')">등록</button>
+
+            </form>
+        </div>
+
+
+
+        <!-- 푸터 -->
+        <footer class="footer">
+            <div class="footer-m">
+                <h4>질문이 있으신가요?<br>
+                    문의 전화: 123-456-7890</h4>
+            </div>
+            <div class="footer-container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4></h4>
+                        <ul>
+                            <li><a href="#">자주 묻는 질문</a></li>
+                            <li><a href="#">투자 정보</a></li>
+                            <li><a href="#">개인정보 처리방침</a></li>
+                            <li><a href="#">속도 테스트</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4></h4>
+                        <ul>
+                            <li><a href="#">고객 센터</a></li>
+                            <li><a href="#">입사 정보</a></li>
+                            <li><a href="#">쿠키 설정</a></li>
+                            <li><a href="#">법적 고지</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4></h4>
+                        <ul>
+                            <li><a href="#">계정</a></li>
+                            <li><a href="#">회사 정보</a></li>
+                            <li><a href="#">이용약관</a></li>
+                            <li><a href="#">문의하기</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-m">
+                    <h4>대표: 팝콘팀<br>
+                        팝콘서비시스코리아 유한회사 통신판매업신고번호: 제2023-서울마포-301호 전화번호: 123-456-7890<br>
+                        이메일 주소: pop_corn@naver.com<br>
+                        주소: 대한민국 서울특별시 마포구 양화로 12길 23<br>
+                        사업자등록번호: 000-00-0000
+                    </h4>
+                </div>
+            </div>
+        </footer>
+</div>
+
+
+
+</body>
+</div>
+
+</html>

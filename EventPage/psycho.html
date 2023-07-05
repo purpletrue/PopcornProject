@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="Mainpage_Nav.css">
+    <!-- 검색창 JS & CSS -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="Mainpage_Search.css">
+    <link rel="stylesheet" href="psycho.css">
+    <!-- 푸터 아이콘 -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 검색창 JS & CSS -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="Mainpage_Search.css">
+    <!-- 마우스 -->
+    <script src="Mouse.js"></script>
+    <script>
+        // script 태그에 인라인 이벤트 모델
+        function buttonClick() {
+            swal('평가되었습니다.');
+        }
+    </script>
+</head>
+<div style="width: 100%;">
+
+    <body>
+        <!-- 헤더 -->
+        <div class="mainmain">
+            <span id="header">
+                <a href="file:///E:/%EC%9D%B4%EC%95%84%EC%A7%84%20Main2,%20Login/MainPage.html"><img class="logo" src="팝콘.PNG" width="200" height="150"></a>
+            </span>
+
+            <!-- 메뉴 및 풀다운 -->
+            <span id="menu">
+                <ul class="main1">
+                    <li style="border: none;"><a href="#"><b style="font-size: 20px;"><span
+                                    style="font-size: 20px;">≡</span> Home</b></a>
+                        <ul class="main2">
+                            <li><a href="#">이용권 정보</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">고객센터</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">영화</a>
+                        <ul class="main2">
+                            <li><a href="#">로맨스</a></li>
+                            <li><a href="#">코미디</a></li>
+                            <li><a href="#">액션</a></li>
+                            <li><a href="#">스릴러 & 호러</a></li>
+                            <li><a href="#">SF & 판타지</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">드라마</a>
+                        <ul class="main2">
+                            <li><a href="#">로맨스</a></li>
+                            <li><a href="#">시트콤 & 코미디</a></li>
+                            <li><a href="#">스릴러</a></li>
+                            <li><a href="#">SF & 판타지</a></li>
+                            <li><a href="#">웹드라마</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">애니메이션</a></li>
+                    <li><a href="#">TOP 10</a></li>
+                    <li><a href="#">MY</a></li>
+                    <li style="border: none;"><a href="#">실시간스트리밍</a></li>
+                </ul>
+            </span>
+            <!-- 검색창 -->
+            <div id="body-search">
+                <div class="main-search">
+                    <div class="search">
+                        <input type="text" class="s_input" onkeypress="if( event.keyCode == 13 ){enterKey();}" />
+                        <button class="btn"><img src="검색돋보기.png" style="width: 90%; right:50%; top:50%;">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <script src="검색.js"></script>
+                    </form>
+
+                    <!-- 검색 결과 실행 -->
+                    <script>
+                        function enterKey() {
+                            swal("검색 결과가 없습니다.");
+                        }
+                    </script>
+                </div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <div class="movie_title">
+
+                싸이코 (1960)
+                <br>
+                / PSYCHO
+
+            </div>
+            <div class="poster">
+                <img src="https://mblogthumb-phinf.pstatic.net/MjAyMjA2MTZfNjcg/MDAxNjU1MzQ5MTY3Nzgx.s3cOby7nQCYkdxzTL9m3AJoYAd-kKDlZTyoAyVMArZcg.B9bwkvVz2WbTAqVLQ5PR329mkfoKQFoAnd92I4v-vKIg.PNG.sigoldr/1-3.PNG?type=w800"
+                    width="600px" height="850px">
+            </div>
+            <div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <table bgcolor="#555555" width="500" height="500" float="right">
+                    <tr bgcolor="2e3133">
+                        <th width="100" height="50">장르</th>
+                        <td align="center">공포, 미스터리, 스릴러</td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100" height="50">감독</th>
+                        <td align="center">앨프리드 히치콕</td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">출연</th>
+                        <td>
+                            <p>앤서니 퍼킨스</p>
+                            <p>재닛 리</p>
+                            <p>베라 마일스</p>
+                            <p>패트리샤 히치콕 외</p>
+                        </td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">제작</th>
+                        <td>
+                            <p>앨프리드 히치콕</p>
+                        </td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="150">편집</th>
+                        <td>
+                            <p>조지 토마시니</p>
+                        </td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">제작사</th>
+                        <td>
+                            <p>샴리 프로덕션</p>
+                        </td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">음악</th>
+                        <td align="center">버나드 허먼</td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">배급사</th>
+                        <td align="center">파라마운트 픽처스</td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">개봉일</th>
+                        <td align="center">1962년 7월 28일</td>
+                    </tr>
+                    <tr bgcolor="2e3133">
+                        <th width="100">상영 시간</th>
+                        <td align="center">109분</td>
+                    </tr>
+                    <div class="grade">
+                        <tr bgcolor="red">
+                            <th width="100">국내 등급</th>
+                            <td align="center" bgcolor="red"> 19세 이상 관람가</td>
+                    </div>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <hr>
+            <br>
+
+            <h1>트레일러 영상</h1>
+            <div align="center">
+                <iframe width="1189" height="669" src="https://www.youtube.com/embed/DTJQfFQ40lI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div>
+                <h1>개요/줄거리</h1>
+                <br>
+                <img class="gif"
+                    src="https://mblogthumb-phinf.pstatic.net/20160822_220/teruloved_14718218500022iBSE_GIF/1.gif?type=w800">
+                <br>
+                <br>
+                <br>
+                <p class="jung">""그들은 알게 될거야. 난 파리 한마리도 해치지 못하는 사람인란 걸"</p>
+                <br>
+                <br>
+
+                <p>회사원인 메리언(쟈넷 리)은 그녀의 애인 샘과 결혼하기를 원한다.</p>
+
+                <p>하지만 샘은 빚을 갚을 때까지는 결혼할 생각이 없기에 그녀와의 결혼을 미루고 있다.</p>
+
+                <p>그래서 그녀는 자신이 다니고 있는 회사의 돈을 횡령해서 도망친다.</p>
+
+                <p>훔친 돈을 가지고 샘을 만나러 떠난 그녀는 도로변에 있는 낡은 모텔에 묵게 된다.</p>
+
+                <p>모텔의 주인인 젊은 남자 노먼 베이츠(앤소니 퍼킨스)는 그녀에게 친절하게 대해준다.</p>
+
+                <p>노먼은 자신이 모텔 바로 뒤쪽에 있는 큰 저택에서 몸이 불편한 그의 어머니와 함께 살고 있다고 말한다.</p>
+
+                <p>그날 밤, 그녀가 샤워를 하고 있는데 샤워커튼 뒤로 검은 형상이 나타나고 그녀는 살해당하고 마는데...</p>
+                <br>
+                <hr>
+                <br>
+                <h1>스틸 컷</h1>
+                <div class="slam">
+                    <img
+                        src="https://mblogthumb-phinf.pstatic.net/20160726_217/yessok104_1469510428762GmesI_JPEG/psycho.jpg?type=w2">
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+                <br>
+                <hr>
+                <br>
+
+
+                <h1>출연/제작</h1>
+                <div class="grid-image">
+                    <a href="https://movie.daum.net/person/main?personId=898">
+                        <img
+                            src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMDRfMTU3/MDAxNTcwMTcxMjM2MDAw.oye1qqFqRiGp63CHlWF4Bto8u17CU4UCz9j1fogFeNUg.ltF2KMkKfYTB3WUeUPCzgvd69_eGpGXgR14nR4N7rhwg.JPEG.joeuning/Hitchcock,_Alfred_02.jpg?type=w800">
+                        <p>알프레드 히치콕 / 감독</p>
+                    </a>
+
+                    <a href="https://movie.daum.net/person/main?personId=12351">
+                        <img src="https://br.web.img3.acsta.net/r_1280_720/pictures/22/04/06/14/37/1039631.jpg">
+                        <p>앤서니 퍼킨스</p>
+                    </a>
+
+                    <a href="https://movie.daum.net/person/main?personId=49299">
+                        <img
+                            src="https://mblogthumb-phinf.pstatic.net/MjAxNzA3MTBfMTg3/MDAxNDk5Njk2MTQ5NzU1.i7hLwGVLgpxm0-hQwPuKkL3dfJtq5GVc1eTHCN9D5h0g.OS17s-f3NGtuSU2LbQDZriwv-QiqQDrTsLH4ib7sMPog.JPEG.kds941014/jl1.jpg?type=w800">
+                        <p>재닛 리</p>
+                    </a>
+
+                    <a href="https://movie.daum.net/person/main?personId=10509">
+                        <img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Vera_Miles_-_1959.jpg/640px-Vera_Miles_-_1959.jpg">
+                        <p>배라 마일스</p>
+
+                    </a>
+                </div>
+
+                <br>
+                <hr>
+                <br>
+
+                <h1>전문가 한 줄 평</h1>
+                <br>
+                <div class="one">
+                    <span>
+                        <p>김대한 평론가 ⭐ 8/10</p>
+                        <p>"보이지 않는 것을 기어이 보아내려는 인간의 폐허. 보일 수 없는 것을 기필코 보여주려는 영화의 성취."</p>
+                        <br>
+                        <p>강백호 평론가 ⭐ 10/10</p>
+                        <p>"탁월한 양식에 선명하게 깃든 신성."</p>
+                    </span>
+                </div>
+
+                <br>
+                <hr>
+                <br>
+                <h1>평점 · 평가하기</h1>
+                <div class="star_rating">
+                    <form name="myform" id="myform" method="post" action="./save">
+                        <fieldset>
+                            <input type="radio" name="rating" value="5" id="rate1"><label for="rate1">⭐</label>
+                            <input type="radio" name="rating" value="4" id="rate2"><label for="rate2">⭐</label>
+                            <input type="radio" name="rating" value="3" id="rate3"><label for="rate3">⭐</label>
+                            <input type="radio" name="rating" value="2" id="rate4"><label for="rate4">⭐</label>
+                            <input type="radio" name="rating" value="1" id="rate5"><label for="rate5">⭐</label>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="comment">
+                    <form action="method=post">
+                        <label> 이름: <br><input type="text" name="name"><br></label>
+
+                        <label> 댓글: <br><textarea cols="35" rows="5" name="mes"></textarea></label><br>
+
+                        <button onclick="swal('평가되었습니다.')">등록</button>
+
+                    </form>
+                </div>
+                <!-- 푸터 -->
+                <footer class="footer">
+                    <div class="footer-m">
+                        <h4>질문이 있으신가요?<br>
+                            문의 전화: 123-456-7890</h4>
+                    </div>
+                    <div class="footer-container">
+                        <div class="row">
+                            <div class="footer-col">
+                                <h4></h4>
+                                <ul>
+                                    <li><a href="#">자주 묻는 질문</a></li>
+                                    <li><a href="#">투자 정보</a></li>
+                                    <li><a href="#">개인정보 처리방침</a></li>
+                                    <li><a href="#">속도 테스트</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4></h4>
+                                <ul>
+                                    <li><a href="#">고객 센터</a></li>
+                                    <li><a href="#">입사 정보</a></li>
+                                    <li><a href="#">쿠키 설정</a></li>
+                                    <li><a href="#">법적 고지</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4></h4>
+                                <ul>
+                                    <li><a href="#">계정</a></li>
+                                    <li><a href="#">회사 정보</a></li>
+                                    <li><a href="#">이용약관</a></li>
+                                    <li><a href="#">문의하기</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <h4>follow us</h4>
+                                <div class="social-links">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="footer-m">
+                            <h4>대표: 팝콘팀<br>
+                                팝콘서비시스코리아 유한회사 통신판매업신고번호: 제2023-서울마포-301호 전화번호: 123-456-7890<br>
+                                이메일 주소: pop_corn@naver.com<br>
+                                주소: 대한민국 서울특별시 마포구 양화로 12길 23<br>
+                                사업자등록번호: 000-00-0000
+                            </h4>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+    </body>
+</div>
+
+</html>
